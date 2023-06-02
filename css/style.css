@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@300&family=Noto+Sans:wght@700&family=Open+Sans:wght@300&family=Titillium+Web:wght@300;600&family=Work+Sans:ital,wght@0,600;1,300&family=Ysabeau:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+.motto {
+   
+  padding: 50px;
+  font-weight: bolder;
+   font-size: larger;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+     margin: 0;
+     
+     background-color: white;
+     font-size: 20px;
+     font-family: 'Montserrat', sans-serif;
+
+}
+
+
+header {
+    height: 95px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 25px;
+    font-family: 'Noto Sans', sans-serif;
+    
+
+}
+
+.phone {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #42213D;
+}
+
+header a {
+    color: #42213D;
+    text-decoration: none;
+    
+}
+
+
+.headerimage{
+   
+    
+    
+}
+.headerimage img {
+    width: 40%;
+    height: 15%;
+    color: #42213D;
+   
+    
+}
+.page-container {
+    min-height: 100vh;
+    padding-top: 70px;
+}
+
+main {
+    margin: 10px 10% 60px 220px;
+    padding: 0px 25px;
+}
+aside {
+    width: 190px;
+    height: 100vh;
+    position: fixed;
+    background: white;
+    padding-top: 10px;
+    font-size: 25px;
+    border-right:1px solid #42213D;
+    
+}
+
+aside a {
+    display: block;
+    color: #42213D;
+    text-transform:capitalize;
+    text-decoration: none;
+    text-align:center;
+    margin-top: 40px;
+    
+}
+
+.logo {
+   
+    font-size: 15px;
+    color: #42213D;
+}
+
+p {
+    line-height: 150%;
+    border-left: px solid #84A98C;
+    padding-left: 10px;
+}
+
+.row {
+    overflow: auto;
+}
+
+[class^="col-"] {
+    float: left;
+    padding: 5px;
+}
+
+.col-10 { width: 10%; }
+.col-20 { width: 20%; }
+.col-30 { width: 30%; }
+.col-40 { width: 40%; }
+.col-50 { width: 50%; }
+.col-60 { width: 60%; }
+.col-70 { width: 70%; }
+.col-80 { width: 80%; }
+.col-90 { width: 90%; }
+.col-100 { width: 100%; }
+
+.title {
+    border-bottom: 3px solid #84A98C;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    transition: all 0.3s;
+}
+
+.row-event {
+    
+ border-top: 2px solid  #42213D;
+  
+  margin-top: 10px;
+
+   
+}
+.row-eventa {
+    
+    
+     
+     margin-top: 10px;}
+.event {
+    background-color: #f3eaeb;
+    border-radius: 1px;
+    border: 1px solid #84A98C;
+    
+}
+
+.sectiontitle {
+    height: max-content;
+    
+    font-size: 31px;
+    text-align: center;
+    color: #44213f;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+   }
+.sectiontitle2 {
+    
+    height: max-content;
+    text-align: justify;
+   
+}
+.sectiontitleimg {
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.sectiontitleimg img {
+    width: 50%;
+    height: 50%;
+    object-fit:inherit;
+   
+    
+}
+.sectiontitleimgp {
+    display:flex;
+    justify-content: space-around;
+    
+    
+}
+
+.sectiontitleimgp img {
+    width: 50%;
+    height: 50%;
+    object-fit:inherit;
+    
+}
+.etapenumber {
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #42213D;
+    text-align: center;
+}
+.oferteblank {
+
+}
+.map {
+    width: 100%;
+    max-width: 450px;
+    height: 290px;
+    border-radius: 3px;
+
+}
+.centered {
+    text-align: center;
+}
+.contact-form {
+    background-color: #f4dde0;
+    border-radius: 5px;
+    border: 2px solid #f3afa6;
+    max-width: 450px;
+    padding: 5px 15px 30px 15px ;
+
+}
+
+.contact-form input, .contact-form textarea {
+    display:block;
+    width: 90%;
+    margin: 15px auto 0px auto;
+    resize: none;
+    font-family: inherit;
+    padding: 3px ;
+    font-size: 17 px;
+}
+
+.bodytext {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bodytext1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.bodytextred {
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        color: red;
+    
+}
+.classiclist{
+    line-height: 200%;
+    list-style: disc linear-gradient(#44213f, #719d7b);
+    text-align: center;
+}
+.classiclistnobullet{
+    line-height: 200%;
+    list-style: none;
+    text-align: center;
+    
+}
+.classiclistnobullet2{
+    line-height: 140%;
+    list-style:none;
+    text-align:justify;
+    color: #42213D;
+    margin-left: 0%;
+    
+}
+.ofertechenar {
+    text-align: center;
+    font-size: 30px !important;
+    border:3px solid #42213D;
+    border-radius: 70px;
+}
+.sediu {
+    width: 400px;
+    height: 400px;
+}
+.sediu img {
+    width: 250px;
+    height: 200px;
+}
+.carname {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: rgb(208, 59, 59);
+    
+}
+.footer-copyright {
+    text-align: center;
+    padding-left: 30px;
+    font-family: sans-serif;
+}
+
+#menu-btn {
+    color: #42213D;
+    font-size: 20px;
+    position: absolute;
+    top: 21px;
+    right: 25px;
+    display: none;
+}
+
+.show {
+    display: block !important;
+}
+@media (max-width: 768px) {
+    
+header {
+    width: 100%;
+    height: auto;
+    font-size: 90%;
+
+}
+.phone {
+    font-size: 10%;
+}
+.headerimage{
+    width: 50%;
+    height: 50%;
+    padding: none;
+}
+    body {
+        font-size: 16px;
+    }
+
+    [class^="col-"] {
+        width: 100%;
+    }
+
+    main {
+ margin :0px;
+ 
+ padding: 40px 15px 20px 15px;
+    }
+
+    aside {
+        display: none;
+        height: auto;
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+
+    .gallery img {
+        width: 130px;
+        height: 130px;
+    }
+
+    #menu-btn {
+        display: block;
+    }
+}
